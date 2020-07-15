@@ -1,0 +1,9 @@
+const html = document.querySelector('html');
+
+const scrollDown = () => {
+  html.scrollTop += window.innerHeight * 3;
+}
+
+setInterval(() => {
+  scrollDown();
+}, 1000);
